@@ -24,7 +24,7 @@ Then, run the following command to run the docker container.
   --env="XAUTHORITY=$XAUTH" \
   --volume="$XAUTH:$XAUTH" \
   -v "/dev:/dev" \
-  tiryoh/ros-desktop-vnc:melodic
+  tiryoh/ros-melodic-desktop:melodic
   ```
 
 
