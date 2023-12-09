@@ -89,6 +89,7 @@ sudo bash -c 'echo '88x2bu' >> /etc/modules'
 ```
 
 ### Connection tutorial
+Disclaimer: If you use this method and want a connection with one of the Jetsons, you will need to connect to the Raspberry Pi first, and then to the Jetson. This means that in some cases where you need a direct connection to the Jetson you should not use this method, you will need to connect to the Raspberry Pi's wifi `cachorro_robo`, enabling direct connections.
 
 Now, to connect to the Robot-Work-Environment(where we use buildMap and Patrol) we have to enter to RaspberryPi first through ssh(robot's network) to discover the IP of the local network.
 ```
