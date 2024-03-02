@@ -50,6 +50,9 @@ sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 sudo iptables -A FORWARD -i wlan1 -o eth0 -j ACCEPT
 sudo iptables -A FORWARD -i eth0 -o wlan1 -j ACCEPT
 ```
+
+Now, to check if it worked, exit the pi ssh and run `ping 192.168.123.15` (this is the ip of one of the Jetsons). If the packets are going through, the configuration has succeeded. If not, try the next step.
+
 #### Configuration on Your Linux Host
 Set Default Gateway to route all traffic through the robot's network, enabling your Linux host to communicate with the robot.
 
