@@ -1,5 +1,5 @@
 # Summary
-- [ROS through WIFI on diffenrent computers(robot's network)](#ros-through-wifi-on-diffenrent-computersrobots-network)
+- [ROS through WIFI on different computers(robot's network)](#ros-through-wifi-on-different-computersrobots-network)
   - [GO1 Unitree Robot Network Configuration](#go1-unitree-robot-network-configuration)
     - [Steps on the Robot's Raspberry Pi](#steps-on-the-robots-raspberry-pi)
     - [Configure iptables for Network Address Translation (NAT)](#configure-iptables-for-network-address-translation-nat)
@@ -9,9 +9,9 @@
   - [Connection tutorial](#connection-tutorial)
 
 
-## ROS through WIFI on diffenrent computers(robot's network)
+## ROS through WIFI on different computers(robot's network)
 
-We had a problem that didn't allow us to have access of the ROS's topics using a diffenrent computer. Turns out that this was because of the configuration of robot's internet config. 
+We had a problem that didn't allow us to have access of the ROS's topics using a different computer. Turns out that this was because of the configuration of robot's internet config. 
 
 To solve this we followed the tutorial presented in [here](https://gist.github.com/dbaldwin/b31835f87f16450a956cf3c89e15a289).
 
