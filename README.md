@@ -61,7 +61,7 @@ Set Default Gateway to route all traffic through the robot's network, enabling y
 
 
 
-## Connection Bitdog-Local Wifi(local network)
+## Connection Bitdog-Local Wifi (local network) using a USB Wireless Module
 
 ### Driver installation
 To connect the robot to our local network(PMEC-FENIX) we used a [USB Wireless Module](https://www.tp-link.com/br/home-networking/adapter/archer-t4u/) and followed the [tutorial](https://askubuntu.com/questions/1018375/how-do-i-install-driver-for-rtl88x2bu) described bellow:
